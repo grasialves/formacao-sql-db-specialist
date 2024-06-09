@@ -30,7 +30,7 @@ DELIMITER ;
 CALL N_funcionários();
 
 -- Quais são os departamentos por cidade?
-alter table dept_locations add index idx_Dnumber (Dnumber); 
+alter table dept_locations add index idx_Cidade (Dlocation); 
 SHOW index from dept_locations;
 
 		-- PROCEDURE 
