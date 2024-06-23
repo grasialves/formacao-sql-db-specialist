@@ -1,0 +1,12 @@
+
+C:\WINDOWS\system32>cd C:\Program Files\MySQL\MySQL Server 8.4\bin\
+
+C:\Program Files\MySQL\MySQL Server 8.4\bin>mysqldump --routines --triggers -u root -p ecommerce > backup_ecommerce1.sql
+
+Enter password: **************
+
+C:\Program Files\MySQL\MySQL Server 8.4\bin>mysqldump --no-data -u root -p ecommerce > ecommerce_no_data_backup.sql
+Enter password: **************
+
+C:\Program Files\MySQL\MySQL Server 8.4\bin>mysqldump --no-create-info -u root -p ecommerce > ecommerce_no_info_backup.sql
+Enter password: **************
